@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #1f2937;
+}
+
+header {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+
+header p {
+    margin-top: 0.25rem;
+    opacity: 0.9;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem 1rem;
+}
+
+.card {
+    background: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+h1, h2, h3 {
+    color: #111827;
+}
+
+h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: #374151;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #2563eb;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+}
+
+.btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background-color: #f9fafb;
+    box-sizing: border-box; 
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    background-color: #fff;
+}
+
+ul.question-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 0.75rem;
+}
+
+ul.question-list li {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    transition: all 0.2s ease;
+}
+
+ul.question-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-color: #bfdbfe;
+}
+
+ul.question-list li a {
+    display: block;
+    padding: 1rem;
+    color: #4b5563 !important; /* Override inline styles */
+    font-size: 0.95rem;
+}
+
+ul.question-list li a span {
+    color: #2563eb !important; /* Override inline styles */
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.nav-link {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #4b5563;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    color: #2563eb;
+    background: #f0f9ff;
+}
+
+.question-box {
+    background: #eff6ff !important;
+    padding: 1rem;
+    border-left: 5px solid #3b82f6 !important;
+    margin-bottom: 1rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.question-box p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #1e3a8a;
+}
+
+/* Navigation Bar */
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    background: #fff;
+    padding: 0.75rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #4b5563;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.nav-item:hover {
+    background-color: #f0f9ff;
+    color: #2563eb;
+}
+
+.nav-item.active {
+    background-color: #2563eb;
+    color: #fff;
+}
+
+/* Hide the old nav-link if it still exists via CSS as a fallback, though we will remove it in HTML */
